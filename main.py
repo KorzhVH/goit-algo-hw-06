@@ -13,9 +13,9 @@ def graph_research(graph):
           f"Кількість доріг між ними: {len(graph.edges())}\n"
           f"Сусіди областей:\n{neighbors_of_nodes}")
 
-# graph_research(graph.G)
-# nx.draw(graph.G)
-# plt.show()
+graph_research(graph.G)
+nx.draw(graph.G)
+plt.show()
 
 #task_2
 def dfs_alg(graph, start, visited=None, path=None):
